@@ -1,4 +1,7 @@
-dmwa = [1,2,3]
-a,b,c = dmwa
+def hi():
+    return 1,2
 
-print(a)
+def bye(no, a, b):
+    return no+a+b
+
+print(bye(1, hi()))
